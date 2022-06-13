@@ -10,9 +10,9 @@ type Node struct {
 
 var root *Node = nil
 
-func createNewNode(newValue int) *Node {
+func createNewNode(value int) *Node {
 	var newNode *Node = new(Node)
-	newNode.value = newValue
+	newNode.value = value
 	newNode.left = nil
 	newNode.right = nil
 	return newNode
