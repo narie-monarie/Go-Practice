@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "Microservice 1"
+		},
+		{
+			"path": "front-end"
+		}
+	],
+	"settings": {
+		"editor.tabCompletion": "on",
+		"diffEditor.codeLens": true
+	}
+}
