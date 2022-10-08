@@ -11,11 +11,11 @@ import (
 )
 
 const (
-	host     = "containers-us-west-30.railway.app"
-	port     = 7009
-	user     = "postgres"
-	password = "DOXvptfMvdHctwTyQ5qf"
-	dbname   = "railway"
+	host     = ""
+	port     = 
+	user     = ""
+	password = ""
+	dbname   = ""
 )
 
 func indexHandler(c *fiber.Ctx, db *sql.DB) error {
