@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var x, y int
+	var r, x, y, n, m, count int
 	fmt.Scan(&x)
 	var a []int
 
@@ -16,11 +16,21 @@ func main() {
 		x--
 	}
 
-	var n, m int
 	fmt.Scan(&n)
 	sort.Ints(a)
+
 	for n != 0 {
 		fmt.Scan(&m)
+
+		for i := 0; i < len(a); i++ {
+			if m >= a[i] {
+				count++
+			}
+		}
+		r = count
+		fmt.Println(r)
+		count = 0
+		n--
 	}
 
 }
