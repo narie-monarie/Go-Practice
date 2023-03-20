@@ -16,8 +16,9 @@ func main() {
 	fmt.Println(superPets[1])
 
 	//check if exists
-	_, ok := superPets[3]
-	fmt.Println(ok)
+	if _, ok := superPets[3]; ok {
+		fmt.Println(ok)
+	}
 
 	delete(heroes, "Superman")
 
